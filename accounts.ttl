@@ -14,6 +14,7 @@
 <https://webid.dbpedia.org/webid.ttl#test> <http://xmlns.com/foaf/0.1/account> <https://databus.dbpedia.org/databus_test> .
 <https://webid.dbpedia.org/webid.ttl#this> <http://xmlns.com/foaf/0.1/account> <https://databus.dbpedia.org/dbpedia> .
 <https://yum-yab.github.io/webid.ttl#this> <http://xmlns.com/foaf/0.1/account> <https://databus.dbpedia.org/denis> .
+<https://yum-yab.github.io/webid.ttl#onto> <http://xmlns.com/foaf/0.1/account> <https://databus.dbpedia.org/ontologies> .
 <http://www.openlinksw.com/data/turtle/openlink.ttl#this> <http://xmlns.com/foaf/0.1/account> <https://databus.dbpedia.org/openlink> .
 <https://phil294.github.io/webid.ttl#this> <http://xmlns.com/foaf/0.1/account> <https://databus.dbpedia.org/phil294> .
 <https://ragnarok85.github.io/webid.ttl#this> <http://xmlns.com/foaf/0.1/account> <https://databus.dbpedia.org/julio-n> .
