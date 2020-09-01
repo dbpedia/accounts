@@ -1,1 +1,20 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cert: <http://www.w3.org/ns/auth/cert#> .
+@prefix rdfs: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<> a foaf:PersonalProfileDocument ;
+   foaf:maker <#this> ;
+   foaf:primaryTopic <#this> .
+
+<#this> a foaf:Agent ;
+   foaf:name "MARVIN";
+   foaf:img <https://raw.githubusercontent.com/Vehnem/vehnem.github.io/master/marvin.png>;
+   foaf:status "Image adopted from https://www.flickr.com/photos/u2canreed/2555740379";
+   cert:key [
+      a cert:RSAPublicKey;
+      rdfs:label "Dutch National Knowledge Graph";
+      cert:modulus "BA1649494A809A4E3133137AFDB4CBB020B7225F1342AA4B8ABB6690111BB9FC041904E9A3408543FC3BC3E8B35D2B3E910F122EB9F9E36B52AEAAE8EABDFFD29D65D8B71104DDAC7B0141770FE9887E19C51C6FBA4069DA909EA2A19F327F0EB1E1F25FC0CD896FF858F571B3B9A4459B5D547DC2063F3575771ADF62F26B98A549D9296853C00799E1BA828B40833AA684ED25683C927831B2E68455306155BEF582682B8A1EB71603C33E2C41C52B0A61D3DD7B5E0494F09DF499248C2386F7BEDA84D6AA6A64BC749A4F237C4BC3109A9A0C0FDE0675078776D7B6F081EC9ECD514C00054D1DF1CD449B2BFE20905052A35E0EE9E9C8AB209F56EBF5FD61"^^xsd:hexBinary;
+      cert:exponent "65537"^^xsd:nonNegativeInteger
+   ] .
 
