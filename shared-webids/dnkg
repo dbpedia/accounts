@@ -8,9 +8,8 @@
    foaf:primaryTopic <#this> .
 
 <#this> a foaf:Agent ;
-   foaf:name "MARVIN";
-   foaf:img <https://raw.githubusercontent.com/Vehnem/vehnem.github.io/master/marvin.png>;
-   foaf:status "Image adopted from https://www.flickr.com/photos/u2canreed/2555740379";
+   foaf:name "Dutch National Knowledge Graph";
+   foaf:status "Data of the Dutch National Knowledge Graph";
    cert:key [
       a cert:RSAPublicKey;
       rdfs:label "Dutch National Knowledge Graph";
