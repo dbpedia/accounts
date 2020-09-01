@@ -1,10 +1,5 @@
-# accounts
-Databus User Accounts
+# Deprecated
+this repository is deprecated
 
-## How to get an account
-Step 1: create your WebID https://github.com/dbpedia/webid
+please see http://dev.dbpedia.org/Databus_Upload_User_Manual#3-create-a-dbpedia-databus-account how to create an account
 
-Step 2: send a pull request here to add the following line to the accounts.ttl:
-`<https://yourwebid.org/webid.ttl#this> foaf:account databus:dbpedia .`
-
-Alternative: post your webid as an issue. 
