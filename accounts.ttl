@@ -22,4 +22,5 @@
 <https://manonthegithub.github.io/GSoC-2020/dbpedia/webid.ttl#this> <http://xmlns.com/foaf/0.1/account> <https://databus.dbpedia.org/manonthegithub> .
 <https://dbpedia.github.io/accounts/shared-webids/dnkg.ttl#this> <http://xmlns.com/foaf/0.1/account> <https://databus.dbpedia.org/dnkg> .
 <http://aksw.org/JohannesFrey> <http://xmlns.com/foaf/0.1/account> <https://databus.dbpedia.org/pik-piam> .
+<http://aksw.org/JohannesFrey> <http://xmlns.com/foaf/0.1/account> <https://databus.dbpedia.org/christian.hofmann> .
 <https://raw.githubusercontent.com/LOD-GEOSS/databus-snippets/master/webid/webid.ttl#this> <http://xmlns.com/foaf/0.1/account> <https://databus.dbpedia.org/lod-geoss> .
