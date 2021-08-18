@@ -1,0 +1,20 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cert: <http://www.w3.org/ns/auth/cert#> .
+@prefix rdfs: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<> a foaf:PersonalProfileDocument ;
+   foaf:maker <#this> ;
+   foaf:primaryTopic <#this> .
+
+<#this> a foaf:Agent ;
+   foaf:name "Healthcare Knowledge Graph";
+   foaf:status "Data of (DBpedia) Healthcare Knowledge Graph";
+   cert:key [
+      a cert:RSAPublicKey;
+      rdfs:label "Healthcare Knowledge Graph";
+      cert:modulus "940182A1A1B866CC3F1429E45055C988ECBD727C02360A127832A1165440C52F4242686A9894E41C28784E2079A9B23E4A414722CEC3E31B422EA884604E3A6C0B258452DB900E5976EA4E7FFD0644B1D399213F34EC2F8BB8688347488C5202D4C15FF604F398AEFDD97D7F867952A5F9921D471F85FAFBA2882B34D7E57084ABC3A8CFB03497D8118B60DAE792D24756F27EDE6664A63FB368662CBAA2616AAB0D24BAD891D78A92A543ED73C3F86D5FE264DAF3692B20154871DB987DCC4F3EE7B72554885657FBC4DC1909614F9AF3F1C36CD486C224843F69B61C0358D1369B9269B28EA0283DFBD0B8BF9028F37C19B96DA43D80DD20CAC31390200C41"^^xsd:hexBinary;
+      cert:exponent "65537"^^xsd:nonNegativeInteger
+     ] .
+
+
