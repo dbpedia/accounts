@@ -26,3 +26,4 @@
 <https://raw.githubusercontent.com/LOD-GEOSS/databus-snippets/master/webid/webid.ttl#this> <http://xmlns.com/foaf/0.1/account> <https://databus.dbpedia.org/lod-geoss> .
 <https://raw.githubusercontent.com/dbpedia/healthcare-platform/main/webid.ttl#this> <http://xmlns.com/foaf/0.1/account> <https://databus.dbpedia.org/guang-zh> .
 <https://dbpedia.github.io/accounts/shared-webids/hckg.ttl#this> <http://xmlns.com/foaf/0.1/account> <https://databus.dbpedia.org/hckg> .
+<https://manzoorali29.github.io/webid.ttl#this> <http://xmlns.com/foaf/0.1/account> <https://databus.dbpedia.org/hckg/manzoorali29@gmail.com> . 
